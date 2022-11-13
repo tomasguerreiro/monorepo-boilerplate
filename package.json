@@ -12,7 +12,8 @@
     "dev": "lerna run dev",
     "test": "lerna run test",
     "lint": "lerna run lint",
-    "tsc:check": "lerna run tsc:check"
+    "tsc:check": "lerna run tsc:check",
+    "format": "lerna run format"
   },
   "devDependencies": {
     "husky": "^8.0.2",
