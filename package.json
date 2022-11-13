@@ -10,7 +10,9 @@
     "lerna": "lerna",
     "build": "lerna run build",
     "dev": "lerna run dev",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "lint": "lerna run lint",
+    "tsc:check": "lerna run tsc:check"
   },
   "devDependencies": {
     "husky": "^8.0.2",
