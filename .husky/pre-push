@@ -2,3 +2,7 @@
 . "$(dirname -- "$0")/_/husky.sh"
 . "$(dirname -- "$0")/common.sh"
 
+yarn build
+yarn tsc:check
+yarn lint
+yarn test
