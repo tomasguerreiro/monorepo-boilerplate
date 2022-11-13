@@ -1,0 +1,15 @@
+{
+  "name": "@monorepo/tsconfig",
+  "version": "0.0.0",
+  "main": "index.js",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "base.json",
+    "nextjs.json",
+    "nestjs.json",
+    "cra.json",
+    "library.json"
+  ]
+}

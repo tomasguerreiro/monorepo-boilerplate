@@ -5,6 +5,7 @@
   "license": "ISC",
   "description": "Uma biblioteca de ferramentas para desenvolvimento web.",
   "scripts": {
+    "reset": "node scripts/reset.js && yarn cache clean -f",
     "prepare": "husky install",
     "lerna": "lerna",
     "build": "lerna run build",
