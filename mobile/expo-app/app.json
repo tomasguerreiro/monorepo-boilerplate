@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "expoApp",
+    "slug": "expoApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "br.com.expoApp"
+    },
+    "ios": {
+      "bundleIdentifier": "br.com.expoApp"
+    }
+  },
+  "name": "expoApp"
+}
