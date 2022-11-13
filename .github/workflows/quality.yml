@@ -1,0 +1,8 @@
+name: Quality
+
+on:
+  push:
+
+jobs:
+  call-workflow-quality:
+    uses: tomasguerreiro/github-actions/.github/workflows/quality-monorepo.yml@main
