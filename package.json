@@ -5,12 +5,14 @@
   "license": "ISC",
   "description": "Uma biblioteca de ferramentas para desenvolvimento web.",
   "scripts": {
+    "prepare": "husky install",
     "lerna": "lerna",
     "build": "lerna run build",
     "dev": "lerna run dev",
     "test": "lerna run test"
   },
   "devDependencies": {
+    "husky": "^8.0.2",
     "lerna": "^6.0.3"
   },
   "workspaces": [
