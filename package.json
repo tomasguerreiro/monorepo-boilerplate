@@ -1,0 +1,21 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "description": "Uma biblioteca de ferramentas para desenvolvimento web.",
+  "scripts": {
+    "lerna": "lerna",
+    "build": "lerna run build",
+    "dev": "lerna run dev",
+    "test": "lerna run test"
+  },
+  "devDependencies": {
+    "lerna": "^6.0.3"
+  },
+  "workspaces": [
+    "frontend/*",
+    "backend/*",
+    "packages/*"
+  ]
+}
